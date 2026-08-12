@@ -1,0 +1,269 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Run the AWS Blocks scaffold command and install dependencies": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510765734
+      },
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510781521
+      }
+    ],
+    "1.2 Remove sample code from the scaffold": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510766390
+      }
+    ],
+    "2.1 Read the installed core and auth documentation before implementing any Block": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510766525
+      }
+    ],
+    "2.2 Read the DistributedTable documentation before implementing storage": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510766707
+      }
+    ],
+    "3.1 Create `aws-blocks/index.ts` with Scope and AuthBasic": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510766768
+      }
+    ],
+    "3.2 Add the Zod bookmark schema and DistributedTable to `aws-blocks/index.ts`": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510766865
+      }
+    ],
+    "3.3 Write a unit test for the Zod schema": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510766933
+      }
+    ],
+    "4.1 Implement `createBookmark` in `aws-blocks/index.ts`": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510766997
+      }
+    ],
+    "4.2 Implement `listBookmarks` in `aws-blocks/index.ts`": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510767048
+      }
+    ],
+    "4.3 Implement `deleteBookmark` in `aws-blocks/index.ts`": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510767107
+      }
+    ],
+    "4.4 Write property test for unauthenticated request rejection (Property 2)": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510767167
+      }
+    ],
+    "4.5 Write property test for userId server-derivation (Property 3)": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510767228
+      }
+    ],
+    "4.6 Write property test for unique bookmark identifiers (Property 4)": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510767287
+      }
+    ],
+    "4.7 Write property test for invalid input rejection (Property 5)": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510767417
+      }
+    ],
+    "4.8 Write property test for list partition isolation (Property 6)": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510767506
+      }
+    ],
+    "4.9 Write property test for cross-user delete prevention (Property 7)": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510767610
+      }
+    ],
+    "4.10 Write property test for selective deletion (Property 8)": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510767716
+      }
+    ],
+    "5. Checkpoint — Verify IFC layer compiles and API methods are reachable": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510767808
+      }
+    ],
+    "6.1 Create `src/types.ts` with shared TypeScript types": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510767913
+      }
+    ],
+    "6.2 Implement auth state observation in `src/index.ts`": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510768009
+      }
+    ],
+    "6.3 Implement `UserHeader.tsx`": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510768070
+      }
+    ],
+    "6.4 Write a unit test for UserHeader rendering (Property 1 — partial)": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510768129
+      }
+    ],
+    "6.5 Implement `BookmarkForm.tsx`": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510768195
+      }
+    ],
+    "6.6 Write property test for client-side form validation (Property 9)": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510768254
+      }
+    ],
+    "6.7 Implement `BookmarkList.tsx`": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510768313
+      }
+    ],
+    "6.8 Implement `BookmarkItem.tsx`": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510768367
+      }
+    ],
+    "6.9 Write property test for BookmarkItem rendering (Property 10)": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510768451
+      }
+    ],
+    "6.10 Wire all components into the signed-in view in `src/index.ts`": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510768549
+      }
+    ],
+    "7. Checkpoint — Verify full frontend happy path": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510768606
+      }
+    ],
+    "8.1 Verify signed-out API access is rejected (Security Test 1)": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510768660
+      }
+    ],
+    "8.2 Verify User A cannot see User B's bookmarks (Security Test 2)": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510768715
+      }
+    ],
+    "8.3 Verify User B cannot delete User A's bookmark (Security Test 3)": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510768766
+      }
+    ],
+    "8.4 Verify ownership is enforced on all three methods (Security Test 4)": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510768826
+      }
+    ],
+    "9.1 Verify bookmarks survive a browser page refresh (Persistence Test 1)": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510768878
+      }
+    ],
+    "9.2 Verify bookmarks survive a dev server restart (Persistence Test 2)": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510768935
+      }
+    ],
+    "9.3 Verify bookmarks survive sign-out and re-login (Persistence Test 3)": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510768988
+      }
+    ],
+    "10.1 Ensure the full project compiles without errors": [
+      {
+        "executionId": "03309eed-c238-4937-8b08-0992ba204deb",
+        "chatSessionId": "sess_c508c6f4-e77d-42d5-b28f-204e0e0fcc57",
+        "timestamp": 1786510769041
+      }
+    ]
+  }
+}
